@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>
@@ -52,3 +51,20 @@ hcb_user = {
     msg_approval:'(この投稿は許可され次第反映されるよ！)',
     msg_approval_required:'投稿ありがとうございました！.',
  
+err_bad_html:'不正なhtmlがあるよ！',
+    err_bad_email:'メールアドレスがないよ！',
+    err_too_frequent:'もうっちょっとまってから投稿してね！',
+    err_comment_empty:'文章を入力してね！',
+    err_denied:'エラー！',
+    err_unknown:'なんかブロックされたよ！',
+    err_spam:'スパムはやめようね！',
+    err_blocked:'プライバシーは守ろう！',
+ 
+    /* SETTINGS */
+    MAX_CHARS: 8192,
+    PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
+    ON_COMMENT: function(){}, /* Function to call after commenting. */
+    RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+};
+</script>
+<!-- done customizing labels of htmlcommentbox.com -->
